@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 24px 24px 200px 24px;
+    width: 100%;
+    max-width: 840px;
+    padding: 56px;
+    overflow: hidden;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.fieldset {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.225rem;
+    color: #888888;
+    margin-bottom: 12px;
+}
+
+input {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+}
+
+p.error-message {
+    position: absolute;
+    bottom: -40px;
+    color: red;
+    font-size: 0.875rem;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #ECECEC;
+}
+
+.button-count {
+    background-color: #864cff;
+    padding: 24px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-container {
+    margin-top: 0;
+}
+
+.age-text {
+    font-size: 6.2rem !important;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: lowercase;
+    line-height: 6.5rem;
+}
+
+.age-number {
+    color: #864cff;
+}
+
+.only-phone {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 48px 24px;
+        border-radius: 24px 24px 100px 24px;
+    }
+
+    .input-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .fieldset {
+        padding-bottom: 2.4rem;
+    }
+
+    label {
+        margin-bottom: 8px;
+    }
+
+    input {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    p.error-message {
+        position: absolute;
+        bottom: -6px;
+        font-size: 0.65rem;
+    }
+
+    .divider {
+        margin: 16px 0;
+    }
+
+    .only-phone {
+        display: block;
+    }
+
+    .age-text {
+        font-size: 4rem !important;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: lowercase;
+        line-height: 4.2rem;
+    }
+}
