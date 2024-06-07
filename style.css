@@ -165,6 +165,7 @@ p.error-message {
 
 .age-container {
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .age-text {
@@ -172,11 +173,12 @@ p.error-message {
     font-weight: 900;
     font-style: italic;
     text-transform: lowercase;
-    line-height: 6.5rem;
+    line-height: 6.8rem;
 }
 
 .age-number {
     color: #864cff;
+    letter-spacing: 0.3rem;
 }
 
 .label-error {

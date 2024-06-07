@@ -15,8 +15,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot.jpg)
+![](./assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/age-calculator-yb-gM8g6c5bsv)
+- Live Site URL: [github page](https://b4khtiar.github.io/age-calculator-challenge/)
 
 ## My process
 
@@ -58,4 +56,4 @@ Users should be able to:
 ## Author
 
 - Github - [b4khtiar](https://www.github.com/b4khtiar)
-- Frontend Mentor - [@b4khtiar](https://www.frontendmentor.io/profile/bakhtiar)
+- Frontend Mentor - [@b4khtiar](https://www.frontendmentor.io/profile/b4khtiar)
